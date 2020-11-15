@@ -7,3 +7,10 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
 `;
+
+export const Back = styled.TouchableOpacity`
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding: 10px;
+`;
